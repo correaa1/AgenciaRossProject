@@ -3,35 +3,57 @@
      align-items: center;
      flex-direction: column;
     }
-    .container h1 {
-         margin:84 0 24px
+    .imagem{
+     background-image: url(../../assets//img.png);
+     background-size: cover;
+     height: 1000px;
+     width: 100%;
+     
+     
     }
-    
-    .container input {
-         width: 50%;
-         padding:24px;
-    
-         background: rgb(86, 161, 96);
-         border-radius: 5px;
-         border:none;
-    
-         font-size: 16px
+    h1.textoImgCaps{
+     font-size: 60px;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Ubuntu', sans-serif;
+     position: relative;
+     top:240px;
+     left:500px;
+     color:aliceblue;
+     padding:25px;
     }
-     .container button{
-         padding: 24px;
-         border-radius: 5px;
-         margin:12px 0 84px;
-         border: none;
-         background: rgb(86, 156, 161);
-         color:aliceblue;
-         font-weight: 700;
-         cursor:pointer;
-         transition: filter 0.2;
-         border:none;
-         font-size: 16px
-         }
-    .container button:hover{
-         filter:brightness(0.9);
-    
-    
+    h2.textoImg{
+     font-size: 22px;
+     text-align: center;
+     position: relative;
+     top:250px;
+     color:aliceblue
     }
+    .buttonInitial{
+     background-color: #FF7B00FA; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+   border-radius: 20px;
+   position: relative;
+   top:50px;
+   right:820px
+    }
+    h2.textSecond{
+     color: #D58300;
+     padding-top: 30px;
+    }
+    h1.textSecond{
+     font-size:45px
+    }
+    h4.textSecond{
+     color:#7A7A7A;
+     font-family: 'Roboto', sans-serif;
+    }
+    h3.textSecond{
+     color:#7A7A7A
+    }
+
+  .engrenagem{
+     left:200px;
+  }

@@ -2,10 +2,13 @@
      margin:0;
      padding:0;
      box-sizing: border-box;
-     background: rgb(126, 200, 223)
-    }
-    body, input, button {
-         font-size: 16px;
-         font-family: "roboto", sans-serif; 
-         -webkit-font-smoothing: antialiased;
-     }
+    
+
+}
+img{ 
+     height: 100px;
+     width: 100px;
+     
+   
+}
+
