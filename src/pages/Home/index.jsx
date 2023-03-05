@@ -16,7 +16,6 @@ return(
     </h1>
     <h2 class='textoImg'>
     Descubra agora mesmo qual gargalo na sua empresa te impede de ter resultados como esses!
-
        </h2>         
        <div className='divButton1'><button className='buttonInitial'>Quero faturar mais</button></div>                          
     </div>
@@ -97,9 +96,16 @@ return(
        medidas corretivas e termos mais</h4>
         </div>
      </div>
-      </div>   
-      <div class='animated'>
+      </div>    
+      <div class='animated'> 
+      <div class='textGold1'>
+      <h2 class='textGold'>O parceiro que você sempre quis e nunca achou!</h2><br/>
+      
+      <div class='escrita4'><h1>Acelerando Negócios.</h1></div>
+      
       </div>
+      </div>
+
   </div>
 )
 }

@@ -111,14 +111,6 @@
 
     }
 
-    img.img3{
-     width: 548px;
-     height: 365px;
-     border-radius: 20px;
-    }
-    .divImg{
-      padding:200px;
-    }
     .animated {
       width: 600px;
       height: 400px;
@@ -126,6 +118,9 @@
       background-size: 80%;
       -webkit-animation: test 4s infinite; /* Chrome, Safari, Opera */
       animation: test 4s infinite;
+      position: relative;
+      top:250px;
+      left:350px
   }
   /* Chrome, Safari, Opera */
   @-webkit-keyframes test {
@@ -136,6 +131,17 @@
       50% {background-position: right center;}
   }
     
+  .textGold1{
+    position: relative;
+    right:650px;
+  }
+  .escrita4{
+    color: #222;
+    font-family: "Poppins",Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.3em;
+  }
     
  
   
