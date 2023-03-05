@@ -8,7 +8,27 @@
 img{ 
      height: 100px;
      width: 100px;
-     
-   
+     align-items: center;
+     justify-content: center;
 }
+.divImg{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+.engrenagem{
+     padding-right: 150px;
+}
+
+.trofeu{
+     padding-left: 150px;
+}
+.asas{
+     position: relative;
+     top:50px;
+}
+
+
+
 

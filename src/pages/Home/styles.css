@@ -17,29 +17,85 @@
      font-family: 'Ubuntu', sans-serif;
      position: relative;
      top:240px;
-     left:500px;
+     left:50px;
      color:aliceblue;
      padding:25px;
     }
     h2.textoImg{
      font-size: 22px;
-     text-align: center;
+     padding-left: 50px;
      position: relative;
      top:250px;
      color:aliceblue
     }
+
     .buttonInitial{
-     background-color: #FF7B00FA; 
   color: white;
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
    border-radius: 20px;
    position: relative;
-   top:50px;
-   right:820px
+   
+   text-decoration: none;
+   transition: all .3s;
+      font-family: sans-serif;
+      border-bottom-color: rgb(0, 0, 0);
+      text-shadow: 1px 1px #1f272b;
+      border: 1px solid #1c252b;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#657179), color-stop(4%,#e4944afa), color-stop(100%,#8d4909fa));
+      margin-bottom: 20px;
     }
-    h2.textSecond{
+
+    .buttonInitial:hover {    
+      color: whitesmoke;
+      letter-spacing: 1.3px;
+      box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all .3s;
+      
+    }
+
+    .button2 {
+      border-radius: 20px;
+      padding: 15px;
+      text-decoration: none;
+      transition: all .3s;
+      font-family: sans-serif;
+      border-bottom-color: rgb(0, 0, 0);
+      outline: 0;
+      display: block;
+      color: whitesmoke;
+      text-shadow: 1px 1px #1f272b;
+      border: 1px solid #1c252b;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#657179), color-stop(4%,#e4944afa), color-stop(100%,#8d4909fa));
+      margin-bottom: 20px;
+    }
+    .divButton1{
+      position: relative;
+      top:300px;
+      left: 300px;
+    }
+    /* Styling for the fourth button when hovering over it */
+    .button2:hover {
+      color: whitesmoke;
+      letter-spacing: 1.3px;
+      box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all .3s;
+      
+    }
+    .divButton{
+      position:relative;
+      top:100px;
+      padding-left: 30px;
+
+    }
+
+    .divSecond{
+     
+      align-items: center;
+      padding-top:30px
+ }
+    h2.textGold{
      color: #D58300;
      padding-top: 30px;
     }
@@ -51,9 +107,19 @@
      font-family: 'Roboto', sans-serif;
     }
     h3.textSecond{
-     color:#7A7A7A
+     color:#7A7A7A;
+
     }
 
-  .engrenagem{
-     left:200px;
-  }
+    img.img3{
+     width: 548px;
+     height: 365px;
+     border-radius: 20px;
+    }
+    .divImg{
+      padding:200px;
+    }
+    
+    
+ 
+  
