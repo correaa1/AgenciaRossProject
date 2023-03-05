@@ -119,6 +119,22 @@
     .divImg{
       padding:200px;
     }
+    .animated {
+      width: 600px;
+      height: 400px;
+      background: url("/src/assets/img3.png") no-repeat left center #ffffff;
+      background-size: 80%;
+      -webkit-animation: test 4s infinite; /* Chrome, Safari, Opera */
+      animation: test 4s infinite;
+  }
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes test {
+      50% {background-position: right center;}
+  }
+  /* Standard syntax */
+  @keyframes test {
+      50% {background-position: right center;}
+  }
     
     
  

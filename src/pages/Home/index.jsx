@@ -98,8 +98,7 @@ return(
         </div>
      </div>
       </div>   
-      <div class='divImg3'>
-        <img className='img3' src={img3} />
+      <div class='animated'>
       </div>
   </div>
 )
