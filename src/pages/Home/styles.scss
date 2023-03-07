@@ -492,3 +492,41 @@ a span:nth-child(4){
         bottom: 100%;
     }
 }
+.divTrabalhos{
+  display:flex;
+  position: relative;
+  padding: 30px;
+  width: 50%;
+  height: 400px;
+}
+.workTransition{
+  animation-name: animation2;
+  animation-duration: 12s;
+  width: 40%;
+  height: 400px;
+  position: relative;
+  top:50px
+}
+@keyframes animation2{
+  0%{
+    background-image: url(/src/assets/pizza1.png);
+  }
+  25%{
+    background-image: url(/src/assets/pizza2.png);
+  }
+  50%{
+    background-image: url(/src/assets/pizza3.png);
+  }
+  75%{
+    background-image: url(/src/assets/pizza4.png);
+  }
+  100%{
+    background-image: url(/src/assets/mama.png);
+  }
+}
+.divs{
+  background-color: #553600;
+  margin-top: 200px;
+  height: 200px;
+  
+}

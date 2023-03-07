@@ -5,11 +5,13 @@
     
 
 }
+
 img{ 
      height: 100px;
      width: 100px;
      align-items: center;
      justify-content: center;
+     
 }
 .divImg{
      display: flex;
