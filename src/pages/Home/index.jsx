@@ -123,7 +123,10 @@ return(
 
       
       <div class="containerEquipe">
+      <h3 class='textTime'>Nosso Time</h3>
+        <h2 class='textTime'>Inspirando sorrisos </h2>
         <div class='carousel'>
+        
   <div class="card">
     <h3 class="title">MATHEUS ROCHA</h3>
     <h4 class='title'>Diretor De Operações e Líder do time</h4>
@@ -177,6 +180,7 @@ return(
     </div>
   </div>
 
+
   <div class="card">
     <h3 class='title'>MARCOS JOSÉ</h3>
     <h4 class="title">Gestor de trafego mirin</h4>
@@ -190,12 +194,13 @@ return(
     </div>
   </div>
   </div>
-  <div class='containerPatrocionio'>
-    <h3 class='titlePatrocinio'>Algumas empresas que já trabalhamos</h3>
-  </div>
+  
 </div>
 
 <div class="slider">
+<div class='containerPatrocionio'>
+    <h3 class='titlePatrocinio'>Algumas empresas que já trabalhamos</h3>
+  </div>
 	<div class="slide-track">
 		<div class="slide">
 			<img src={imgEquipeG} height="100" width="250" alt="" />
@@ -261,9 +266,32 @@ return(
               
           </div>
           <div class='divTrabalhos'>
-            <div class='workTransition'></div>
+            <div class='workTransition'>
+            </div>
           </div>
-      <div class='divs'></div>
+      <div class='divsText5'>
+        <h3 class='text5'>Ross é confiável?</h3>
+        <h2 class='text5'>O que nossos clientes estão falando</h2>
+      </div>
+
+      <div class='divsText6'>
+        <div class='div1'>
+          <h3 class='text6'>” Me surpreendi ”</h3>
+          <h4 class='text6'>Com certeza a melhor agência <br/>que passou pelos meus negócios, <br/>as últimas que contrete
+paguei <br/> mais caro e não cobriu meus custos…<br/>Hoje em dia só anúncio com o Gerson e o<br/>
+Matheus porque as estratégias que<br/> executamos nos diferenciam <br/> completamente da concorrência. Parabéns pessoal!</h4>
+          <h3 class='text6Name'>Juliani Pavelski</h3>
+          <h4 class='text6Name'>Dona – Juli Estética Facial</h4>
+        </div>
+        <div class='div1'>
+          <h3 class='text6'>” Agora sim tenho resultados “</h3>
+          <h4 class='text6'>Não acreditava muito no início <br/>no trabalho de base, mas me<br/> surprendi com os resultados!<br/>
+Vendi muito mais do que com a <br/>captação de leads convencionais, <br/> e olha que já passei por muita agência… <br/>
+Gratidão a toda equipe<br/> por ter mudado completamente minha<br/> empresa para melhor!</h4>
+          <h3 class='text6Name'>João Rafael</h3>
+          <h4 class='text6Name'>Dono – Artcult e Barzim</h4>
+        </div>
+      </div>
   </body>
 )
 }
