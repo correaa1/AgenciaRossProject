@@ -7,15 +7,16 @@ return(
 
   <div id='container'>
       <div class='imagem'>
+    
+    <div className='containerTextInitial'>
+        <h2 className='textoImgCaps'>
+    CONHEÇA O MECANISMO QUE <br/> FARÁ O SEU NEGÓCIO VENDER<br/> MAIS ATRAVÉS DA INTERNET.
+    </h2>
       <h2 className='textoImg'>
-      Quer ter resultados acima da média? Junte-se com quem está acima da média!
-       </h2>
-    <h1 className='textoImgCaps'>
-    Aumente em até 6x o seu ROI!
-    </h1>
-    <h3 className='textoImg'>
-    Descubra agora mesmo qual gargalo na sua empresa te impede de ter resultados como esses!
-       </h3>         
+      Entre em contato e descubra as estratégias <br/>exclusivas que nós utilizamos para fazer dezenas <br/> de negócios escalarem suas vendas através do <br/>digital.
+       </h2>  
+       <button className='button1'>QUERO VENDER MAIS</button>
+       </div>       
       </div>
       <div className='containerForm'>
     <Form/>

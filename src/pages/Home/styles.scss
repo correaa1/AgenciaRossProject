@@ -13,27 +13,67 @@
     align-items: center;
     justify-content: center;
     }
-    h1.textoImgCaps{
-     font-size: 60px;
-     font-family: 'Roboto', sans-serif;
-     font-family: 'Ubuntu', sans-serif;
-     position: relative;
-     color:aliceblue;
-     padding:25px;
-     right: 40vh;
+   
+    .containerTextInitial{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 700px;
+    position: relative;
     }
+    h2.textoImgCaps{
+      color: #fff;
+    font-family: "Poppins",Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+    text-shadow: 0px 0px 10px #101010;
+    position: relative;
+    margin-left:15vh;
+      top:20vh;
+      
+     }
     h2.textoImg{
-     font-size: 22px;
      position: relative;
-     top:250px;
-     color:aliceblue;
-     left:30vh;
+     top:22vh;
+     color: #D3D3D3;
+     font-family: "Barlow", Sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 25px;
+     margin-left:15vh;
     }
+    h2.textoImg1{
+      font-size: 22px;
+      position: relative;
+      padding:10vh;
+      color:aliceblue;
+      right:9vh;
+     }
+  .button1{
+    background-color: #8a4a26;
+    border-radius: 10vh;
+    width: 30vh;
+    height: 5vh;
+    position: relative;
+    top:35vh;
+    margin-left: 20vh;
+    font-family: "NEUSHARP", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.2px;
+    color:whitesmoke;
+  }
+  .button1:hover{
+    background-color: #1c252b;
+
+  }
 
     .containerForm{
       width: 100%;
       background-color: #1c252b;
         padding: 40px;
+       
     }
 
 .containerEquipe {
@@ -43,16 +83,15 @@
   display: flex;
   flex-direction: row;
   background-color: #1c252b;
-
 }
 h3.textTime{
   color: #d58300;
     font-family: "Poppins",Sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     position: relative;
-    
-    padding-top: 2vh;
+    top:15vh;
+    left:25vh
 }
 h2.textTime{
   color: #fff;
@@ -61,7 +100,7 @@ h2.textTime{
     font-weight: 700;
     line-height: 1.3em;
     position: relative;
-    padding-top: 5vh;
+    top:20vh;
    
 }
 
@@ -71,9 +110,8 @@ h3.title {
   color: white;
   font-weight: 300;
   position: absolute;
-  
-  top:3.5vh
-
+  top:35vh;
+  margin-left: 10vh;
 }
 h4.title {
   color: white;
@@ -88,7 +126,7 @@ h4.title {
 
 .imgEquipeR {
   position: absolute;
-  top: 150px;
+  top: 350px;
   background-image: url('/src/assets/imgEquipeR.png');
   background-size: 100%;
   border-radius: 10px;
@@ -101,7 +139,7 @@ h4.title {
 .imgEquipeG {
   position: absolute;
   background-image: url('/src/assets/imgEquipeG.png');
-  top: 150px;
+  top: 350px;
   background-size: 100%;
   border-radius: 10px;
   height:250px;
@@ -111,7 +149,7 @@ h4.title {
 }
 .imgEquipeJ {
   position: absolute;
-  top: 150px;
+  top: 350px;
   background-image: url('/src/assets/imgEquipeJ.png');
   background-size: 100%;
   border-radius: 10px;
@@ -121,7 +159,7 @@ h4.title {
 }
 .imgEquipeE {
   position: absolute;
-  top: 150px;
+  top: 350px;
   background-image: url('/src/assets/imgEquipeE.png');
   background-size: 100%;
   border-radius: 10px;
@@ -132,7 +170,7 @@ h4.title {
 }
 .imgEquipeM {
   position: absolute;
-  top: 150px;
+  top: 350px;
   background-image: url('/src/assets/imgEquipeM.png');
   background-size: 100%;
   border-radius: 10px;
@@ -258,110 +296,6 @@ h4.title {
     top:160px
   }
 
-  a{
-    position: relative;
-    display: inline-block;
-    padding: 25px 30px;
-    margin: 40px 0;
-    color: #fdfdfd;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-    letter-spacing: 4px;
-    overflow: hidden;
-    margin-right: 50px;
-    top:120px;
-    left:450px
-   
-}
-a:hover{
-    background: #1c252b;
-    color: #fdfdfd;
-    box-shadow: 0 0 5px #ffffff,
-                0 0 25px #ffffff,
-                0 0 50px #f2f3f3,
-                0 0 200px #fafafa;
-     -webkit-box-reflect:below 1px linear-gradient(transparent, rgba(252, 188, 236, 0.979));
-}
-a:nth-child(1){
-    filter: hue-rotate(270deg);
-}
-a:nth-child(2){
-    filter: hue-rotate(110deg);
-}
-a span{
-    position: absolute;
-    display: block;
-}
-a span:nth-child(1){
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg,transparent,#ffffff);
-    animation: animate1 1s linear infinite;
-}
-@keyframes animate1{
-    0%{
-        left: -100%;
-    }
-    50%,100%{
-        left: 100%;
-    }
-}
-a span:nth-child(2){
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg,transparent,#ffffff);
-    animation: animate2 1s linear infinite;
-    animation-delay: 0.25s;
-}
-@keyframes animate2{
-    0%{
-        top: -100%;
-    }
-    50%,100%{
-        top: 100%;
-    }
-}
-a span:nth-child(3){
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg,transparent,#ffffff);
-    animation: animate3 1s linear infinite;
-    animation-delay: 0.50s;
-}
-@keyframes animate3{
-    0%{
-        right: -100%;
-    }
-    50%,100%{
-        right: 100%;
-    }
-}
-
-
-a span:nth-child(4){
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg,transparent,#ffffff);
-    animation: animate4 1s linear infinite;
-    animation-delay: 0.75s;
-}
-@keyframes animate4{
-    0%{
-        bottom: -100%;
-    }
-    50%,100%{
-        bottom: 100%;
-    }
-}
 .divTrabalhos{
   display:flex;
   position: relative;
