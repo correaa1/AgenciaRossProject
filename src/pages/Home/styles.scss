@@ -92,12 +92,13 @@
       width: 600px;
       height: 400px;
       background: url("/src/assets/img3.png") no-repeat left center #ffffff;
-      background-size: 80%;
+      background-size: 90%;
       -webkit-animation: test 4s infinite; /* Chrome, Safari, Opera */
-      animation: test 4s infinite;
+      animation: test 20s infinite;
       position: relative;
       top:250px;
-      left:350px
+      left:350px;
+      
   }
   /* Chrome, Safari, Opera */
   @-webkit-keyframes test {
@@ -207,7 +208,7 @@ h3.title {
   font-weight: 300;
   position: absolute;
   left: 22vh;
-  top:4vh
+  top:3.5vh
 
 }
 h4.title {
@@ -318,7 +319,7 @@ h4.title {
   }
   
   .carousel{
-    animation: carousel 10s linear infinite;
+    animation: carousel 30s linear infinite;
     display:flex;
     max-width: 160vh;
     height: 100vh;
