@@ -1,14 +1,11 @@
    
    form {
      display: inline-block;
-     align-items: center;
-    justify-content: center;
      background-color: #35415a;
      border-radius: 10vh;
      position: relative;
      top:-10vh;
-     padding: 10vh;
-     left: 40vh;
+     left: 60vh;
      
    }
    
@@ -44,9 +41,9 @@
      display: block;
      box-sizing: border-box;
      position: relative;
-     border-radius: 4px;
+     border-radius: 5vh;
      border: 1px solid white;
-     padding: 10px 10px;
+     padding: 10px 20px;
      margin-bottom: 10px;
      font-size: 14px;
      width: 50%;
@@ -58,24 +55,27 @@
      justify-content: center;
      flex-direction: column;
      position: relative;
-      top:-8vh;
+     
    }
-   .textForms{
+   h2.textForms{
     color: #FFFFFF;
     font-family: "NEUSHARP", Sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     line-height: 43px;
+    padding: 5vh;
+    text-align: center;
    }
-   .textForms1{
+   h3.textForms{
     color: #FF3C00;
     font-family: "Barlow", Sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 25px;
     letter-spacing: 1.5px;
-    
+    position: relative;
+    top: -4vh;
    }
    
    button[type="submit"],
@@ -88,7 +88,8 @@
      padding: 20px;
      font-size: 16px;
      font-weight: 100;
-     letter-spacing: 10px;
+     letter-spacing: 5px;
+     border-radius: 10vh;
    }
    
    button[type="submit"]:hover,
@@ -153,6 +154,7 @@
      padding: 10px 10px;
      margin-bottom: 10px;
      font-size: 14px;
+     border-radius: 5vh;
    }
    button {
      display: block;

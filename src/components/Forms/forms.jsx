@@ -17,9 +17,9 @@ export default function Form() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <div className="containerTextForms">      <h2 className="textForms">AGENDE UMA SESSÃO ESTRATÉGICA E DESCUBRA O PASSO A PASSO PARA VENDER MAIS EM 2023.</h2>
-      <h2 className="textForms">PARA VENDER MAIS EM 2023.</h2>
-      <h3 className="textForms1">PREENCHA O FORMULÁRIO ABAIXO</h3>
+      <div className="containerTextForms">   
+    <h2 className="textForms">AGENDE UMA SESSÃO ESTRATÉGICA E DESCUBRA O PASSO A PASSO<br/> PARA VENDER MAIS EM 2023.</h2>
+      <h3 className="textForms">PREENCHA O FORMULÁRIO ABAIXO</h3>
       </div>
       
      <div className="containerInput"> 
@@ -84,12 +84,11 @@ export default function Form() {
       {errors.cargo && <p>Preencha o campo vazio</p>}
       
       <select {...register("select")}>
-        <option value="female">0 a R$15 mil</option>
-        <option value="male">R$15 a 30 mil</option>
-        <option value="other">R$30 a R$60 mil</option>
-        <option value="other">R$60 a 100 mil</option>
-        <option value="other">R$100 a R$500 mil</option>
-        <option value="other">mais de R$500 mil</option>
+        <option value="valor">R$15 a 30 mil</option>
+        <option value="valor">R$30 a R$60 mil</option>
+        <option value="valor">R$60 a 100 mil</option>
+        <option value="valor">R$100 a R$500 mil</option>
+        <option value="valor">mais de R$500 mil</option>
       </select>
       <input type="submit" /></div>
     </form>
