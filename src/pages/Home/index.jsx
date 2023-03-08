@@ -22,24 +22,22 @@ return(
     <Form/>
     </div>
       <div className="containerEquipe">
+        <div className='containerEquipeText'>
       <h3 className='textTime'>Nosso Time</h3>
         <h2 className='textTime'>Inspirando sorrisos </h2>
-       
+        </div>
   <div className="card">
-    <h3 className="title">MATHEUS ROCHA</h3>
-    <h4 className='title'>Diretor De Operações e Líder do time</h4>
+  
     <div className="imgEquipeR">
     </div>
   </div>
   <div className="card">
-    <h3 className="title"> GERSON GONÇALVES</h3>
-    <h4 className="title">CEO – Head Comercial</h4>
+    
     <div className="imgEquipeG">
   </div></div>
 
   <div className="card">
-  <h3 className='title'>GIAN GABOARDI</h3>
-  <h4 className="title">Diretor Audio Visual</h4>
+  
     <div className="imgEquipeJ">
     </div>
   </div>
@@ -50,8 +48,6 @@ return(
     </div>
   </div>
   <div className="card">
-    <h3 className='title'>MARIA EDUARDA</h3>
-    <h4 className="title">Head Social Midia e Designer</h4>
     <div className="imgEquipeM">
     </div>
   </div>
