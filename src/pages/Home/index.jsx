@@ -21,37 +21,7 @@ return(
       <div className='containerForm'>
     <Form/>
     </div>
-      <div className="containerEquipe">
-        <div className='containerEquipeText'>
-      <h3 className='textTime'>Nosso Time</h3>
-        <h2 className='textTime'>Inspirando sorrisos </h2>
-        </div>
-  <div className="card">
-  
-    <div className="imgEquipeR">
-    </div>
-  </div>
-  <div className="card">
-    
-    <div className="imgEquipeG">
-  </div></div>
-
-  <div className="card">
-  
-    <div className="imgEquipeJ">
-    </div>
-  </div>
-
-  <div className="card">
-   
-    <div className="imgEquipeE">
-    </div>
-  </div>
-  <div className="card">
-    <div className="imgEquipeM">
-    </div>
-  </div>
-  </div> 
+      
   </div>
 )
 }
