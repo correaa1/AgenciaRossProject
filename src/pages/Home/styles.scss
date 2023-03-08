@@ -2,16 +2,19 @@
      display:flex;
      align-items: center;
      flex-direction: column;
-
+      background-image:linear-gradient(to right, rgba(83, 82, 82, 0.6),rgba(63, 62, 62, 0.6)),;
+      border: none;
+           
     }
     .imagem{
-     background-image: url(../../assets//img.png);
-     background-size: cover;
-     height: 1000px;
-     width: 100%;
-     display: flex;
-    align-items: center;
-    justify-content: center;
+
+background-size: cover;     
+position: relative;
+left:30vh;
+width: 70%;
+      background-image: linear-gradient(to right, rgba(124, 121, 121, 0.6), rgba(119, 118, 118, 0.6)), url('/src/assets/img3.png');
+      background-repeat: no-repeat, no-repeat;
+      border:none
     }
    
     .containerTextInitial{
@@ -19,7 +22,9 @@
       flex-direction: column;
       width: 100%;
       height: 700px;
-    position: relative;
+      position: relative;
+      justify-content: center;
+      right: 50vh;
     }
     h2.textoImgCaps{
       color: #fff;
@@ -29,36 +34,30 @@
     letter-spacing: -1.5px;
     text-shadow: 0px 0px 10px #101010;
     position: relative;
-    margin-left:15vh;
-      top:20vh;
+    
+      
       
      }
     h2.textoImg{
      position: relative;
-     top:22vh;
-     color: #D3D3D3;
+     color: aliceblue;
      font-family: "Barlow", Sans-serif;
      font-size: 20px;
      font-weight: 400;
      line-height: 25px;
-     margin-left:15vh;
+     padding-top: 5vh;
     }
     h2.textoImg1{
+      
       font-size: 22px;
       position: relative;
       padding:10vh;
       color:aliceblue;
       right:9vh;
      }
-     .containerButton1{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 30vh;
-      margin-right: 130vh;
-     }
+    
   .button1{
-    background-color: #8a4a26;
+    background-color: rgba(124, 121, 121, 0.6);
     border-radius: 10vh;
     width: 30vh;
     height: 5vh;
@@ -87,7 +86,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #1d3a52;
+    background-color: #1f2e3a;
     width: 100%;
       
 }
@@ -100,51 +99,39 @@ h2.text2Main{
   line-height: 43px;
   padding-top: 10vh;
 }
-h2.text2{
-  color: #FFFFFF;
-  font-family: "NEUSHARP", Sans-serif;
-  font-size: 28px;
-  font-weight: 600;
-  text-transform: uppercase;
-  line-height: 43px;
-  
-}
 .container2Text{
  display: flex;
  align-items: center;
  justify-content: center;
   padding: 10vh;
-  
-  
 }
-h3.text2{
+.text2{
   color: #FFFFFF;
   font-family: "NEUSHARP", Sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 10vh;
- 
+  padding: 1vh;
 }
 
+.container3{
+  background-color:#1c252b;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .containerEquipe {
-  height: 1000px;
+  display: flex;
   width: 100%;
   position: relative;
-  display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-direction: row;
-  background-color: #1c252b; 
-
+  padding-top:20vh;
 }
 
-.containerEquipeText{
-  position: relative;
- left:70vh;
- top:-50vh;
- display: flex;
- align-items: center;
- justify-content: center;
-}
 h3.textTime{
   color: #d58300;
     font-family: "Poppins",Sans-serif;
@@ -184,60 +171,49 @@ h4.title {
   
 }
 
-
 .imgEquipeR {
-  position: absolute;
-  top: 350px;
   background-image: url('/src/assets/imgEquipeR.png');
   background-size: 100%;
   border-radius: 10px;
   height:250px;
   width: 250px;
-  left:20vh
   
   
 }
 .imgEquipeG {
-  position: absolute;
   background-image: url('/src/assets/imgEquipeG.png');
-  top: 350px;
   background-size: 100%;
   border-radius: 10px;
   height:250px;
   width: 250px;
-  left: 50vh;
+ 
   
 }
 .imgEquipeJ {
-  position: absolute;
-  top: 350px;
+ 
   background-image: url('/src/assets/imgEquipeJ.png');
   background-size: 100%;
   border-radius: 10px;
   height:250px;
   width: 250px;
-  left: 80vh;
+ 
 }
 .imgEquipeE {
-  position: absolute;
-  top: 350px;
+
   background-image: url('/src/assets/imgEquipeE.png');
   background-size: 100%;
   border-radius: 10px;
   height:250px;
   width: 250px;
-  left: 110vh;
+  
   
 }
 .imgEquipeM {
-  position: absolute;
-  top: 350px;
   background-image: url('/src/assets/imgEquipeM.png');
   background-size: 100%;
   border-radius: 10px;
   height:250px;
   width: 250px;
-  left: 140vh;
   
 }
   h4.title{
