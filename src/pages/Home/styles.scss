@@ -122,6 +122,7 @@ h2.text2Main{
   justify-content: center;
 }
 
+
 .containerEquipe {
   display: flex;
   width: 100%;
@@ -221,27 +222,12 @@ h4.title {
   }
   
  
-  .containerPatrocionio{
-    width: 100%;
-  }
-  .titlePatrocinio{
-    display: flex;
-    align-items: center;
-    color:#ffff;
-    align-items: center;
-    justify-content: center;
-    font-family: "Poppins",Sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.3em;
-    
-  }
   
   @mixin white-gradient {
     background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
   }
   
-  $animationSpeed: 40s;
+  $animationSpeed: 50s;
   
   // Animation
   @keyframes scroll {
@@ -258,9 +244,8 @@ h4.title {
     margin: auto;
     overflow:hidden;
     position: relative;
-    width: 100%;
+    width: 50%;
     position: relative;
-    top: 50vh;
   
     
     &::before,
