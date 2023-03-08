@@ -43,7 +43,7 @@ return(
   </div>
 </div>
 <div className="card">
-  
+    
   <div className="imgEquipeG">
 </div></div>
 
