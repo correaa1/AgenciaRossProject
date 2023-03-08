@@ -29,7 +29,7 @@ export default function Form() {
           validate: (value) => value !== ''
         })}
       />
-      {errors.firstName && <p>Preencha o campo vazio</p>}
+      {errors.firstName && <p className="formsP">Preencha o campo vazio</p>}
 
       
       <input

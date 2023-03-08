@@ -23,11 +23,11 @@
      margin: 0 auto;
    }
    
-   p {
+   p.formsP {
      color: #bf1650;
    }
    
-   p::before {
+   p.formsP::before {
      display: inline;
      content: "⚠ ";
    }
@@ -131,7 +131,7 @@
      background: #333;
      color: white;
      border: none;
-     text-transform: uppercase;
+     text-transform: uppercase; 
      padding: 10px 20px;
      border-radius: 4px;
    }
