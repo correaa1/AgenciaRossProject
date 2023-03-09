@@ -18,12 +18,11 @@ return(
     </h2>
       <h2 className='textoImg'>
       Entre em contato e descubra as estratégias <br/>exclusivas que nós utilizamos para fazer dezenas <br/> de negócios escalarem suas vendas através do <br/>digital.
-       </h2>  
-       <button className='button1'>QUERO VENDER MAIS</button>
-       </div>  </div> 
-        <div className='containerButton1'>
-       
+       </h2>   <div className='containerButton1'>
+        <button className='button1'>QUERO VENDER MAIS</button>
        </div>
+       </div>  </div> 
+       
       {/*formulario*/}
       <div className='containerForm'>
     <Form/>
@@ -31,9 +30,18 @@ return(
       <div className='container2'>
       <h2 className='text2Main' >SE A SUA EMPRESA</h2>
       <div className='container2Text'>
-      <h3 className='text2'>Fatura mais de R$30 mil reais</h3>
+        <div className='container2Icon30k'>
+        <h2 className='icon30k'>30k  </h2>
+      <h3 className='text2'>Fatura mais de R$30 mil reais</h3></div>
+
+      <div className='container2Icon30k'>
+      <div className='iconGrafico'/>  
       <h3 className='text2'>Busca ter previsibilidade nas vendas</h3>
-      <h3 className='text2'>Busca receber mais leads qualificados</h3></div>
+      </div>
+
+      <div className='container2Icon30k'>
+      <div className='iconSubir'>  </div>
+      <h3 className='text2'>Busca receber mais leads qualificados</h3></div></div>
      <button class='button3'>Nós vamos te ajudar</button></div>   
      {/*container que contem a parte da equipe da empresa*/}
       <div className='container3'>
