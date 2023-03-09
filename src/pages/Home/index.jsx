@@ -174,7 +174,17 @@ return(
           <h3 className='text8'> Hoje você pode receber nossos serviços completos de marketing</h3>
           <h2 className='text8'>PELO PREÇO DE UM FUNCIONÁRIO!</h2>
           <button className='button2'>ENTRAR EM CONTATO AGORA</button>
-        </div>     
+        </div>   
+        <div className='container9'>
+          <h2 className='text9'>DEPOIMENTOS</h2>
+          
+          </div>  
+          <div className='container10'>
+          <div className='ocuparSpace1'> </div>
+          <div className='ocuparSpace2'> </div>
+          <div className='ocuparSpace3'> </div>
+          </div>
+        
   </div>
 )
 }

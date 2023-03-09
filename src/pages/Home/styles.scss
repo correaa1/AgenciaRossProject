@@ -362,7 +362,7 @@ background-color: #1c252b;
   align-items: center;
   justify-content: space-around;
   background-color: #1c252b;
-  padding: 250px;
+  padding: 50px;
   }
 
   .spaceContainer7{
@@ -374,6 +374,8 @@ background-color: #1c252b;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  
   align-items: center;
   justify-content: space-around;
   }
@@ -394,7 +396,7 @@ background-color: #1c252b;
     justify-content: space-around;
     background-color: #1c252b;
     position: relative;
-    top:-15vh;
+    
     }
 
     h3.text8{
@@ -406,7 +408,7 @@ background-color: #1c252b;
        text-align: center;
     }
     h2.text8{
-      color: #2f9e2f;
+      color: orange;
       font-family: "Barlow", Sans-serif;
       font-size: 20px;
       font-weight: 500;
@@ -415,38 +417,62 @@ background-color: #1c252b;
        padding: 20px;
     }
 
-  .divPortifolio{ 
-    background-color:#1c252b ;
-    height: 600px;
-    width:100%;
+.container9{
+    width: 100%;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    
+    flex-direction: column;
+    background-color: #1c252b;
+    }
+    h2.text9{
+      color: #FF3C00;
+      font-family: "Barlow", Sans-serif;
+      font-size: 13px;
+      /* font-weight: 400; */
+      text-transform: uppercase;
+      line-height: 39px;
+      letter-spacing: 3px;    
+    }
 
-  }
-  .textPortifolio1{
-    color: #d4911b;
-    font-size: 35px;
-    font-weight: 700;
-    text-align: center;
-    position: relative;
-    top:100px;
-    left:200px
+    h1.text9{
+      color: #FFFFFF;
+      font-family: "NEUSHARP", Sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      
+    }
+    .container10{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    background-color: #1c252b;     
+          padding-top: 120px;
+    }
+.ocuparSpace1{
+  background-image: url('/src/assets/imgEquipeR.png');
+  background-size: 100%;
+  border-radius: 10px;
+  height:250px;
+  width: 250px;
 
-  }
-  .textPortifolio2{
-    color: #d4d5e2;
-    font-family: "Poppins",Sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.3em;
-    text-align: center;
-    position: relative;
-   
-    top:160px
-  }
-
+}
+.ocuparSpace2{
+  background-image: url('/src/assets/imgEquipeR.png');
+  background-size: 100%;
+  border-radius: 10px;
+  height:250px;
+  width: 250px;
+}
+.ocuparSpace3{
+  background-image: url('/src/assets/imgEquipeR.png');
+  background-size: 100%;
+  border-radius: 10px;
+  height:250px;
+  width: 250px;
+}
 .divTrabalhos{
   display:flex;
   position: relative;
