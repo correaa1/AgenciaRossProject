@@ -92,12 +92,13 @@ width: 70%;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 2.2px;
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    text-shadow: 0px 0px 10px rgba(15, 15, 15, 0.3);
     padding: 20px;
     width: 20%;
     color: #fff;
     border-radius: 10px;
-    border: 2px solid #212341 ;
+    border: 1px solid #7f852e ;
+    
   }
   .button3:hover{
     background-color: #2441c2;
@@ -361,28 +362,30 @@ h3.textTime{
 }
     h2.text4{
       color: #ffff;
-    font-family: "NEUSHARP", Sans-serif;
-    font-size: 26px;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 43px;
-    letter-spacing: 2.3px;
+      font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 43px;
+      letter-spacing: 2.3px;
     }
 
     .container5{
       width: 100%;
-      margin: auto;
+      padding: 100px;
       background-color: #1f2e3a;
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-around;
-      padding: 120px;
+      justify-content: center;
+      padding: 50px;
       
   }
 .spaceContainer5{
   width:20%;
-  height:20vh;
+  height:25vh;
   border: 2px solid;  
   border-color: #212341;
   background-color:#323d58;
@@ -391,6 +394,9 @@ h3.textTime{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin: 30px;
+  position: relative;
+  top:-100px
 }
 
 .text5{
@@ -426,9 +432,9 @@ background-color: #1c252b;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #1c252b;
-  padding: 50px;
+  padding: 120px;
   }
 
   .spaceContainer7{
@@ -441,9 +447,9 @@ background-color: #1c252b;
   display: flex;
   flex-direction: column;
   padding: 20px;
-  
   align-items: center;
   justify-content: space-around;
+  margin-right: 25px;
   }
   .text7{
     color: #FFFFFF;
@@ -459,12 +465,19 @@ background-color: #1c252b;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1c252b;
     position: relative;
+    padding: 100px;
     
     }
-
+.containerButton3{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
     h3.text8{
       color: #FFFFFF;
       font-family: "Barlow", Sans-serif;
@@ -474,13 +487,15 @@ background-color: #1c252b;
        text-align: center;
     }
     h2.text8{
-      color: orange;
+      color: #FF3C00;
       font-family: "Barlow", Sans-serif;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 27px;
-       text-align: center;
-       padding: 20px;
+      font-size: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 20px;
+      letter-spacing: 0.9px;
+      padding-bottom: 20px;
+       
     }
 
 .container9{
@@ -491,7 +506,7 @@ background-color: #1c252b;
     flex-direction: column;
     background-color: #1c252b;
     }
-    h2.text9{
+    h3.text9{
       color: #FF3C00;
       font-family: "Barlow", Sans-serif;
       font-size: 13px;
@@ -500,7 +515,15 @@ background-color: #1c252b;
       line-height: 39px;
       letter-spacing: 3px;    
     }
-
+    h2.text9{
+      color: #FFFFFF;
+      font-family: "NEUSHARP", Sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 32px;
+      letter-spacing: 1.1px;
+    }
     h1.text9{
       color: #FFFFFF;
       font-family: "NEUSHARP", Sans-serif;
@@ -515,8 +538,8 @@ background-color: #1c252b;
       align-items: center;
       justify-content: space-around;
     background-color: #1c252b;     
-          padding-top: 120px;
-          padding-bottom: 20px;
+          padding: 120px;
+          
     }
 .ocuparSpace1{
   background-image: url('/src/assets/imgEquipeR.png');
@@ -544,29 +567,23 @@ background-color: #1c252b;
 
 .containerFinal{
 display: flex;
-flex-direction: column;
 align-items: center;
 justify-content: center;
-background-color: #1f2e3a;
+background-color: #1f2830;
 width: 100%;
-padding-top: 20px;
 text-align: center;
+
 }
 .imgRoss{
-  background-image: url('/src/assets/imgRoss.jpg');
+  background-image: url('/src/assets/logoRoss.png');
   background-size: 100%;
   border-radius: 10px;
-  height:50px;
-  width: 50px;
+  height:90px;
+  width: 150px;
+  position: relative;
+  top:-30px
 }
-.textFinal{
-  color: #ebebeb;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
-  padding-bottom: 30px;
-  padding-top: 10px;
-}
+
 .containerForm2{
       width: 100%;
       background-color: #1c252b;

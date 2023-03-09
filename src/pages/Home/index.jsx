@@ -202,11 +202,12 @@ return(
         <div className='container8'>
           <h3 className='text8'> Hoje você pode receber nossos serviços completos de marketing</h3>
           <h2 className='text8'>PELO PREÇO DE UM FUNCIONÁRIO!</h2>
-          <button className='button2'>ENTRAR EM CONTATO AGORA</button>
-        </div>   
+          <div className='containerButton3'>
+          <button className='button3'>ENTRAR EM CONTATO AGORA</button>
+          </div></div>
         <div className='container9'>
-          <h2 className='text9'>DEPOIMENTOS</h2>
-          
+          <h3 className='text9'>DEPOIMENTOS</h3>
+          <h2 className='text9'>O QUE OS NOSSOS CLIENTES DIZEM:</h2>
           </div>  
           <div className='container10'>
           <div className='ocuparSpace1'> </div>
@@ -218,7 +219,6 @@ return(
           <div className='containerFinal'>
           
             <div className='imgRoss'/>
-            <h3 className='textFinal'>Agencia Ross</h3>
           </div>
   </div>
 )
