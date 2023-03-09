@@ -24,21 +24,12 @@ export default function Form() {
       
      <div className="containerInput"> 
      <input
-        placeholder="Nome"
-        {...register("firstName", {
+        placeholder="Nome e Sobrenome"
+        {...register("NameComplet", {
           validate: (value) => value !== ''
         })}
       />
-      {errors.firstName && <p className="formsP">Preencha o campo vazio</p>}
-
-      
-      <input
-        placeholder="Sobrenome"
-        {...register("lastName", {
-          validate: (value) => value !== ''
-        })}
-      />
-      {errors.lastName && <p>Preencha o campo vazio</p>}
+      {errors.NameComplet && <p className="formsP">Preencha o campo vazio</p>}
 
       
       <input
@@ -48,8 +39,8 @@ export default function Form() {
           validate: (value) => value !== ''
         })}
       />
-      {errors.email && <p>Preencha o campo vazio</p>}
-      
+      {errors.email && <p className="formsP">Preencha o campo vazio</p>}
+     
       <input
         placeholder="Seu número de whatsApp"
         type="text"
@@ -61,10 +52,10 @@ export default function Form() {
         })}
       />
       {errors.telefone && errors.telefone.type === "positiveNumber" && (
-        <p>Preencha o campo vazio</p>
+        <p className="formsP">Preencha o campo vazio</p>
       )}
       {errors.telefone && errors.telefone.type === "lessThanHundred" && (
-        <p>o número de whatswapp deve conter no maximo 15 números.</p>
+        <p className="formsP">o número de whatswapp deve conter no maximo 15 números.</p>
       )}
 
 <input
@@ -73,7 +64,7 @@ export default function Form() {
           validate: (value) => value !== ''
         })}
       />
-      {errors.instagram && <p>Preencha o campo vazio</p>}
+      {errors.instagram && <p className="formsP">Preencha o campo vazio</p>}
 
       <input
         placeholder="Qual o seu cargo na empresa"
@@ -81,7 +72,7 @@ export default function Form() {
           validate: (value) => value !== ''
         })}
       />
-      {errors.cargo && <p>Preencha o campo vazio</p>}
+      {errors.cargo && <p className="formsP">Preencha o campo vazio</p>}
       
       <select {...register("select")}>
         <option value="valor">R$15 a 30 mil</option>
@@ -90,7 +81,8 @@ export default function Form() {
         <option value="valor">R$100 a R$500 mil</option>
         <option value="valor">mais de R$500 mil</option>
       </select>
-      <input type="submit" /></div>
+      
+      <input type="submit" value="Enviar Contato"/> </div>
     </form>
   );
 }

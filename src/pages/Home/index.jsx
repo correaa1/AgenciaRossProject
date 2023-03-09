@@ -34,90 +34,119 @@ return(
       <h3 className='text2'>Fatura mais de R$30 mil reais</h3>
       <h3 className='text2'>Busca ter previsibilidade nas vendas</h3>
       <h3 className='text2'>Busca receber mais leads qualificados</h3></div>
-     <button class='button1'>Nos vamos te ajudar</button></div> 
-     
+     <button class='button3'>Nós vamos te ajudar</button></div>   
      {/*container que contem a parte da equipe da empresa*/}
       <div className='container3'>
-          <h2 className='text2Main'>O QUE A AGENCIA ROSS FAZ?</h2>
-          <h4 className='text2'>Somos um time de especialistas e fazemos dezenas de negócios venderem mais através de campanhas</h4>
-          <h4 className='text2'>nas Plataformas: Facebook, Instagram, Google, Youtube, LinkedIn, Tik Tok dentre outras..</h4> 
+          <h2 className='text3'>O QUE A AGENCIA ROSS FAZ?</h2>
+          <h4 className='text3'>Somos um time de especialistas e fazemos dezenas de negócios venderem mais através de campanhas</h4>
+          <h4 className='text3'>nas Plataformas: Facebook, Instagram, Google, Youtube, LinkedIn, Tik Tok dentre outras..</h4> 
           <div className="containerEquipe">
-          <div className="card">
+   
+   {/*Carrousel da equipe*/}
+          <div class="slider">
+	<div class="slide-track">
+	<div class="card">
   <h4 className='textTime'>Diretor De Operações e Líder do time</h4>
   <h3 className='textTime'>MATHEUS ROCHA</h3>
-  <div className="imgEquipeR">
-  </div>
-</div>
-<div className="card">
+  <div className="imgEquipeR"></div>
+</div></div>
+<div class="slide-track">
+<div class="card">
 <h4 className='textTime'>CEO – Head Comercial</h4>
   <h3 className='textTime'>GERSON GONÇALVES</h3>
   <div className="imgEquipeG">
-</div></div>
-
-<div className="card">
+  </div>
+    </div>
+    </div>  
+    <div class="slide-track">
+		
+    <div class="card">
 <h4 className='textTime'>Diretor Audio Visual</h4>
   <h3 className='textTime'>GIAN GABOARDI</h3>
-  <div className="imgEquipeJ">
-  </div>
-</div>
+  <div className="imgEquipeJ"></div>
+    </div>
+    </div>
 
-<div className="card">
+    <div class="slide-track">
+		<div class="card">
 <h4 className='textTime'>Head Social Midia e Designer</h4>
   <h3 className='textTime'>MARIA EDUARDA</h3>
-  <div className="imgEquipeE">
-  </div>
-</div>
-<div className="card">
+  <div className="imgEquipeE"></div>
+    </div>
+    </div>
+    <div class="slide-track"> 
+    <div class="card">
 <h4 className='textTime'>Gestor de tráfego mirin</h4>
   <h3 className='textTime'>MARCOS JOSÉ</h3>
-  <div className="imgEquipeM">
-  </div>
+  <div className="imgEquipeM"></div>
+    </div>
+    </div>
+
+    <div class="slide-track">
+    <div class="card">
+<h4 className='textTime'>Diretor De Operações e Líder do time</h4>
+  <h3 className='textTime'>MATHEUS ROCHA</h3>
+  <div className="imgEquipeR"></div>
+    </div>
+    </div>
+    <div class="slide-track"> 
+    <div class="card">
+<h4 className='textTime'>CEO – Head Comercial</h4>
+  <h3 className='textTime'>GERSON GONÇALVES</h3>
+  <div className="imgEquipeG"></div>
+    </div>
+    </div>
+
+
+
+
+    
 </div>
     </div>
     {/*Carrosel banner*/ }
-  <div class="slider">
-	<div class="slide-track">
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+  <div class="slider2">
+	<div class="slide-track2">
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"  height="100" width="250" alt="" />
+		<div class="slide2">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"  height="100" width="350" alt="" />
 		</div>
 	</div>
 </div>
