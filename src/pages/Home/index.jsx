@@ -11,15 +11,33 @@ return(
   <div id='container'>
       <div class='imagem'>
       
+   
     <div className='containerTextInitial'>
-    
-        <h2 className='textoImgCaps'>
-    CONHEÇA O MECANISMO QUE <br/> FARÁ O SEU NEGÓCIO VENDER<br/> MAIS ATRAVÉS DA INTERNET.
+    <div class="sp-container">
+	<div class="sp-content">
+    <div class="sp-globe"></div>
+        <h2 className='frame-1'>
+    Se sua empresa fatura mais de R$30 mil reais
     </h2>
-      <h2 className='textoImg'>
-      Entre em contato e descubra as estratégias <br/>exclusivas que nós utilizamos para fazer dezenas <br/> de negócios escalarem suas vendas através do <br/>digital.
-       </h2>   <div className='containerButton1'>
+      <h2 className='frame-2'>
+      Busca ter previsibilidade nas vendas 
+       </h2> 
+       <h2 className='frame-3'>Busca receber mais leeds qualificados</h2>
+        <h2 className='frame-4'>Nós vamos te ajudar</h2>
+        
+        <h2 class="frame-5">
+       
+			<span><div className='imgRossInicio'/>Agencia Ross,&nbsp; </span>
+			<span> agende&nbsp;</span>
+			<span>um horario conosco.
+      <div className='containerButton1'>   
         <button className='button1'>QUERO VENDER MAIS</button>
+				</div>
+
+      </span>
+      
+		</h2>
+         </div>
        </div>
        </div>  </div> 
        
