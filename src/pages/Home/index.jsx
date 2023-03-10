@@ -49,7 +49,7 @@ return(
       <div className='container2Icon30k'>
       <div className='iconSubir'>  </div>
       <h3 className='text2'>Busca receber mais leads qualificados</h3></div></div>
-     <button class='button3'>Nós vamos te ajudar</button></div>   
+    <button class='raise'>Nós vamos te ajudar</button></div>
      {/*container que contem a parte da equipe da empresa*/}
       <div className='container3'>
           <h2 className='text3'>O QUE A AGENCIA ROSS FAZ?</h2>
@@ -111,9 +111,6 @@ return(
   <div className="imgEquipeG"></div>
     </div>
     </div>
-
-
-
 
     
 </div>
@@ -218,7 +215,7 @@ return(
           <h3 className='text8'> Hoje você pode receber nossos serviços completos de marketing</h3>
           <h2 className='text8'>PELO PREÇO DE UM FUNCIONÁRIO!</h2>
           <div className='containerButton3'>
-          <button className='button3'>ENTRAR EM CONTATO AGORA</button>
+          <button className='raise'>ENTRAR EM CONTATO AGORA</button>
           </div></div>
         <div className='container9'>
           <h3 className='text9'>DEPOIMENTOS</h3>

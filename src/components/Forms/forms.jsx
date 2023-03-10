@@ -81,8 +81,9 @@ export default function Form() {
         <option value="valor">R$100 a R$500 mil</option>
         <option value="valor">mais de R$500 mil</option>
       </select>
-      
-      <input type="submit" value="Enviar Contato"/> </div>
+      </div>
+      <div className="containerButtonForm">
+      <button className="raise">Enviar contato</button></div>
     </form>
   );
 }
