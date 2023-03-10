@@ -189,25 +189,25 @@ return(
       <div className='container7'>
       <div className='spaceContainer7'>
       <img src={star} style={{height:40}}/>    
-    <h3 className='text5'>ESTRATÉGIA</h3>  
-    <h3 className='text5'> Plano estratégico<br/>&nbsp;&nbsp;&nbsp;Personalizado</h3> 
+    <h3 className='text7'>ESTRATÉGIA</h3>  
+    <h3 className='text7'> Plano estratégico<br/>&nbsp;&nbsp;&nbsp;Personalizado</h3> 
     </div>
     
     <div className='spaceContainer7'> 
     <img src={prancheta} style={{height:40}}/>
-    <h3 className='text5'>FACEBOOK ADS</h3>   
+    <h3 className='text7'>FACEBOOK ADS</h3>   
     <h3 className='text7'>Tráfego Pago no Facebook ADS</h3>
     </div>
      
     <div className='spaceContainer7'> 
     <img src={complet} style={{height:40}}/> 
-    <h3 className='text5'>GOOGLE ADS</h3>
+    <h3 className='text7'>GOOGLE ADS</h3>
     <h3 className='text7'>Tráfego Pago no Google ADS</h3>
      </div>
    
     <div className='spaceContainer7'> 
     <img src={complet} style={{height:40}}/> 
-    <h3 className='text5'>COPYWRITING</h3>
+    <h3 className='text7'>COPYWRITING</h3>
     <h3 className='text7'>Construímos a comunicação certa para você vender mais</h3>
      </div>
         </div> 

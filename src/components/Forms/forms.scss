@@ -70,13 +70,13 @@
     min-height: 56px;
     line-height: 52px!important;
     padding-top: 40px;
-    font-family: "RooneySans-Regular", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
    }
    h3.textForms{
     color: #ff3c00;
-    font-family: "Barlow", Sans-serif;
-    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1.5px;
     position: relative;
@@ -110,7 +110,7 @@
   .containerButtonForm button.raise{
     background: none;
     border: 2px solid;
-    font: 300 1em 'Fira Sans', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1;
     padding: 20px;
     border-radius: 10px;
