@@ -3,14 +3,12 @@
      align-items: center;
      flex-direction: column;
       border: none;
-           background-image: linear-gradient( rgba(124, 121, 121, 0.6), rgba(104, 103, 103, 0.6));
-
     }
     .imagem{
 background-size: cover ; 
 position: relative;
 width: 100%;
-      background-image: linear-gradient(to right, rgba(175, 170, 170, 0.6), rgba(160, 158, 158, 0.6)), url('/src/assets/img3.png') ;
+      background-image: url('/src/assets/img3.png') ;
       background-repeat: no-repeat,;
       border:none;
       font-family: 'Barlow', sans-serif;
@@ -21,36 +19,89 @@ width: 100%;
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 700px;
       position: relative;
       justify-content: center;
       align-items: center;
     }
-                  
+    .imgRossInicio{
+      background-image: url('/src/assets/logoRoss.png');
+      background-size: cover;
+      border-radius: 10px;
+      height:auto;
+      width: 180px;
+      position: relative;
+      margin-left: 100px;
+      padding: 75px;
+                                   
+    }
+            
    
     .containerButton1{
-      padding:20px
+      padding-top:50px
         
     }
-   
+   // Size can also be negative; see how it's smaller than the element
+.button1:hover,
+.button1:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
 
-  .button1{
-    background-color:#212341;
-    border-radius: 10px;
-    width: 70%;
-    height: 6.5vh;
-    font-family: "NEUSHARP", Sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 2.2px;
-    color:whitesmoke;
-    border: 1px solid #1c252b;
-    
-  }
-  .button1:hover{
-    background-color: #5b5d66;
 
+//=== Set button colors
+// If you wonder why use Sass vars or CSS custom properties...
+  // Make a map with the class names and matching colors
+$colors: (
+  fill: #a972cb,
+  pulse: #ef6eae, 
+  close: #ff7f82, 
+  raise: #e4cb58, 
+  up: #e4cb58, 
+  slide: #8fc866, 
+  offset: #19bc8b
+);
+
+// Sass variables compile to a static string; CSS variables are dynamic and inherited
+  // Loop through the map and set CSS custom properties using Sass variables
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
   }
+}
+
+// Now every button will have different colors as set above. We get to use the same structure, only changing the custom properties.
+button {  
+  color: var(--color);
+  transition: 0.25s;
+  
+  &:hover,
+  &:focus { 
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+//=== Pen styling, ignore
+
+// Basic button styles
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 { font-weight: 400; }
+
+code { 
+  color: #e4cb58;
+  font: inherit;
+}
+
   .button2{
     background-color:#212341;
     border-radius: 10px;
@@ -593,17 +644,6 @@ text-align: center;
   top:-30px
 }
 
-.imgRossInicio{
-  background-image: url('/src/assets/logoRoss.png');
-  background-size: cover;
-  border-radius: 10px;
-  height:auto;
-  width: 180px;
-  position: relative;
-  margin-left: 100px;
-  padding: 65px;
-                               
-}
 
 
 
@@ -736,7 +776,7 @@ text-align: center;
       -ms-animation: blurFadeInOut 1s ease-in backwards;
       animation: blurFadeInOut 1s ease-in backwards;
     }
-    .sp-container h2.frame-1 {
+    /*.sp-container h2.frame-1 {
       -webkit-animation-delay: 0s;
       -moz-animation-delay: 0s;
       -ms-animation-delay: 0s;
@@ -759,7 +799,8 @@ text-align: center;
       -moz-animation-delay: 9s;
       -ms-animation-delay: 9s;
       animation-delay: 9s;
-    }
+    }*/
+    
     .sp-container h2.frame-5 {
       -webkit-animation: none;
       -moz-animation: none;
@@ -778,11 +819,14 @@ text-align: center;
       text-shadow: 0px 0px 1px #fff;
       color:aliceblue ;
       font-family: "Barlow", Sans-serif;
-      font-size: 20px;
+      font-size: 25px;
       font-weight: 400;
       line-height: 25px;
-       
+      
+      
     }
+
+    
     .sp-container h2.frame-5 span:nth-child(2) {
       -webkit-animation-delay: 3s;
       -moz-animation-delay: 3s;
@@ -794,57 +838,7 @@ text-align: center;
       -moz-animation-delay: 4s;
       -ms-animation-delay: 4s;
       animation-delay: 4s;
-    }
-    
-    .sp-globe {
-      position: absolute;
-      width: 282px;
-      height: 273px;
-      top: 50%;
-      margin: -137px 0 0 -141px;
-      background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left;
-      -webkit-animation: fadeInBack 3.6s linear 14s backwards;
-      -moz-animation: fadeInBack 3.6s linear 14s backwards;
-      -ms-animation: fadeInBack 3.6s linear 14s backwards;
-      animation: fadeInBack 3.6s linear 14s backwards;
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-      filter: alpha(opacity=30);
-      opacity: 0.3;
-      -webkit-transform: scale(5);
-      -moz-transform: scale(5);
-      -o-transform: scale(5);
-      -ms-transform: scale(5);
-      transform: scale(5);
-    }
-    .sp-circle-link {
-      position: absolute;
-      left: 50%;
-      bottom: 100px;
-      margin-left: -50px;
-      text-align: center;
-      line-height: 100px;
-      width: 100px;
-      height: 100px;
-      background: #fff;
-      color: #3f1616;
-      font-size: 25px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-      -webkit-animation: fadeInRotate 1s linear 16s backwards;
-      -moz-animation: fadeInRotate 1s linear 16s backwards;
-      -ms-animation: fadeInRotate 1s linear 16s backwards;
-      animation: fadeInRotate 1s linear 16s backwards;
-      -webkit-transform: scale(1) rotate(0deg);
-      -moz-transform: scale(1) rotate(0deg);
-      -o-transform: scale(1) rotate(0deg);
-      -ms-transform: scale(1) rotate(0deg);
-      transform: scale(1) rotate(0deg);
-    }
-    .sp-circle-link:hover {
-      background: #85373b;
-      color: #fff;
-    }
+    }  
     /**/
     
     @-webkit-keyframes blurFadeInOut {
@@ -1020,3 +1014,5 @@ text-align: center;
         transform: scale(1) rotate(0deg);
       }
     }
+
+

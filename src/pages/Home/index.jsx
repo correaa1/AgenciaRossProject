@@ -11,27 +11,24 @@ return(
   <div id='container'>
       <div class='imagem'>
       
-   
+   {/*container abaixo faz a transição do texta inicial.*/}
     <div className='containerTextInitial'>
     <div class="sp-container">
-	<div class="sp-content">
-    <div class="sp-globe"></div>
-               
+	<div class="sp-content">       
         <h2 class="frame-5">
        
 			<span><div className='imgRossInicio'/>Agencia Ross,&nbsp; </span>
 			<span> agende&nbsp;</span>
 			<span>um horario conosco.
       <div className='containerButton1'>   
-        <button className='button1'>AGENDAR HORÁRIO</button>
+        <button className='raise'>AGENDAR HORÁRIO</button>
 				</div>
-
-      </span>
-      
+      </span>   
 		</h2>
          </div>
        </div>
-       </div>  </div> 
+       </div>  
+       </div> 
        
       {/*formulario*/}
       <div className='containerForm'>
