@@ -16,22 +16,14 @@ return(
     <div class="sp-container">
 	<div class="sp-content">
     <div class="sp-globe"></div>
-        <h2 className='frame-1'>
-    Se sua empresa fatura mais de R$30 mil reais
-    </h2>
-      <h2 className='frame-2'>
-      Busca ter previsibilidade nas vendas 
-       </h2> 
-       <h2 className='frame-3'>Busca receber mais leeds qualificados</h2>
-        <h2 className='frame-4'>Nós vamos te ajudar</h2>
-        
+               
         <h2 class="frame-5">
        
 			<span><div className='imgRossInicio'/>Agencia Ross,&nbsp; </span>
 			<span> agende&nbsp;</span>
 			<span>um horario conosco.
       <div className='containerButton1'>   
-        <button className='button1'>QUERO VENDER MAIS</button>
+        <button className='button1'>AGENDAR HORÁRIO</button>
 				</div>
 
       </span>

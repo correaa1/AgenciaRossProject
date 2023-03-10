@@ -25,38 +25,12 @@ width: 100%;
       position: relative;
       justify-content: center;
       align-items: center;
-      
-      
     }
-    h2.textoImgCaps{
-      color: #fff;
-    font-family: "Poppins",Sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: -1.5px;
-    text-shadow: 0px 0px 10px #101010;
-    position: relative;
-               }
-               
-    h2.textoImg{
-     position: relative;
-     color: aliceblue;
-     font-family: "Barlow", Sans-serif;
-     font-size: 20px;
-     font-weight: 400;
-     line-height: 25px;
-     padding-top: 5vh;
-    }
-    h2.textoImg1{
-      
-      font-size: 22px;
-      position: relative;
-      padding:10vh;
-      color:aliceblue;
-      right:9vh;
-     }
+                  
+   
     .containerButton1{
-      padding-top:50px
+      padding:20px
+        
     }
    
 
@@ -626,7 +600,7 @@ text-align: center;
   height:auto;
   width: 180px;
   position: relative;
-  margin-left: 150px;
+  margin-left: 100px;
   padding: 65px;
                                
 }
@@ -732,7 +706,7 @@ text-align: center;
     }
     .sp-container {
       position: relative;
-      
+      padding: 350px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -756,10 +730,11 @@ text-align: center;
       width: 100%;
       text-align: center;
       color: transparent;
-      -webkit-animation: blurFadeInOut 2s ease-in backwards;
-      -moz-animation: blurFadeInOut 2s ease-in backwards;
-      -ms-animation: blurFadeInOut 2s ease-in backwards;
-      animation: blurFadeInOut 2s ease-in backwards;
+      
+      -webkit-animation: blurFadeInOut 1s ease-in backwards;
+      -moz-animation: blurFadeInOut 1s ease-in backwards;
+      -ms-animation: blurFadeInOut 1s ease-in backwards;
+      animation: blurFadeInOut 1s ease-in backwards;
     }
     .sp-container h2.frame-1 {
       -webkit-animation-delay: 0s;
@@ -795,24 +770,30 @@ text-align: center;
       
     }
     .sp-container h2.frame-5 span {
-      -webkit-animation: blurFadeIn 3s ease-in 12s backwards;
-      -moz-animation: blurFadeIn 1s ease-in 12s backwards;
-      -ms-animation: blurFadeIn 3s ease-in 12s backwards;
-      animation: blurFadeIn 3s ease-in 12s backwards;
+      -webkit-animation: blurFadeIn 3s ease-in 2s backwards;
+      -moz-animation: blurFadeIn 1s ease-in 2s backwards;
+      -ms-animation: blurFadeIn 3s ease-in 2s backwards;
+      animation: blurFadeIn 3s ease-in 2s backwards;
       color: transparent;
       text-shadow: 0px 0px 1px #fff;
+      color:aliceblue ;
+      font-family: "Barlow", Sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 25px;
+       
     }
     .sp-container h2.frame-5 span:nth-child(2) {
-      -webkit-animation-delay: 13s;
-      -moz-animation-delay: 13s;
-      -ms-animation-delay: 13s;
-      animation-delay: 13s;
+      -webkit-animation-delay: 3s;
+      -moz-animation-delay: 3s;
+      -ms-animation-delay: 3s;
+      animation-delay: 3s;
     }
     .sp-container h2.frame-5 span:nth-child(3) {
-      -webkit-animation-delay: 14s;
-      -moz-animation-delay: 14s;
-      -ms-animation-delay: 14s;
-      animation-delay: 14s;
+      -webkit-animation-delay: 4s;
+      -moz-animation-delay: 4s;
+      -ms-animation-delay: 4s;
+      animation-delay: 4s;
     }
     
     .sp-globe {
