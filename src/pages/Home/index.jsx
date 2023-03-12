@@ -1,12 +1,20 @@
 import '../../pages/Home/styles.scss'
-import React from 'react';
+import React,{useRef} from 'react';
 import Form from '../../components/Forms/forms.jsx'
 import star from'../../assets/star.png'
 import prancheta from'../../assets/prancheta.png'
 import complet from'../../assets/complet.png'
+import HeadLine from '../Router/router'
 
-function Home() {
-return(
+
+
+export default function Home() {
+  const ref = useRef(null)
+function handleClick (){
+  ref.current?.scrollIntoView({behavior:'smooth'})
+}
+  
+  return(
 
   <div id='container'>
       <div class='imagem'>
@@ -21,18 +29,20 @@ return(
 			<span> agende&nbsp;</span>
 			<span>um horario conosco.
       <div className='containerButton1'>   
-        <button className='raise'>AGENDAR HORÁRIO</button>
+        <button onClick={handleClick}  className='raise'>AGENDAR HORÁRIO</button>
 				</div>
       </span>   
-		</h2>
+		</h2></div>
          </div>
-       </div>
+       
        </div>  
+       <HeadLine ref={ref} />
        </div> 
        
       {/*formulario*/}
       <div className='containerForm'>
     <Form/>
+    
     </div>
       <div className='container2'>
       <h2 className='text2Main' >SE A SUA EMPRESA</h2>
@@ -49,7 +59,7 @@ return(
       <div className='container2Icon30k'>
       <div className='iconSubir'>  </div>
       <h3 className='text2'>Busca receber mais leads qualificados</h3></div></div>
-    <button class='raise'>Nós vamos te ajudar</button></div>
+    <button onClick={handleClick} class='raise'>Nós vamos te ajudar</button></div>
      {/*container que contem a parte da equipe da empresa*/}
       <div className='container3'>
           <h2 className='text3'>O QUE A AGENCIA ROSS FAZ?</h2>
@@ -215,7 +225,7 @@ return(
           <h3 className='text8'> Hoje você pode receber nossos serviços completos de marketing</h3>
           <h2 className='text8'>PELO PREÇO DE UM FUNCIONÁRIO!</h2>
           <div className='containerButton3'>
-          <button className='raise'>ENTRAR EM CONTATO AGORA</button>
+          <button  onClick={handleClick}  className='raise'>ENTRAR EM CONTATO AGORA</button>
           </div></div>
         <div className='container9'>
           <h3 className='text9'>DEPOIMENTOS</h3>
@@ -235,4 +245,3 @@ return(
   </div>
 )
 }
-export default Home 
