@@ -6,7 +6,6 @@ import prancheta from'../../assets/prancheta.png'
 import complet from'../../assets/complet.png'
 import HeadLine from '../Router/router'
 import serviceEmail from '../src/serviceEmail.js'
-import { useMediaQuery } from 'react-responsive'
 
 
 

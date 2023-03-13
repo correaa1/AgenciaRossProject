@@ -11,12 +11,13 @@
           align-items: center;
           justify-content: center;
           display: flex;
+          height: auto;
        }
      }
 
      @media screen and (max-width:600px){
-      h1,h2,h3,h4 {
-           width: 100%;
+      div.container2Text, h1,h2,h3,h4 {
+           width: 600px;
            align-items: center;
            justify-content: center;
            display: flex;
@@ -25,7 +26,7 @@
       }
 
       @media screen and (max-width:600px){
-        div.slider, div.card {
+        div.container2,div.slider, div.card {
              width: 600px;
              
           }
@@ -34,10 +35,17 @@
 
      
       @media screen and (max-width:600px){
-        span {
-             width:100%  
+        span, button.raise {
+             width:600px;
            }
          }
+
+         @media screen and (max-width:600px){
+          div.container2, button.raise {
+               width:600px;
+               padding: 20px;
+             }
+           }
     
     
      
