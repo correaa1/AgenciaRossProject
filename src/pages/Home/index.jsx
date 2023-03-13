@@ -5,6 +5,8 @@ import star from'../../assets/star.png'
 import prancheta from'../../assets/prancheta.png'
 import complet from'../../assets/complet.png'
 import HeadLine from '../Router/router'
+import serviceEmail from '../src/serviceEmail.js'
+import { useMediaQuery } from 'react-responsive'
 
 
 
@@ -20,20 +22,22 @@ function handleClick (){
       <div class='imagem'>
       
    {/*container abaixo faz a transição do texta inicial.*/}
-    <div className='containerTextInitial'>
     <div class="sp-container">
 	<div class="sp-content">       
         <h2 class="frame-5">
        
-			<span><div className='imgRossInicio'/>Agencia Ross,&nbsp; </span>
-			<span> agende&nbsp;</span>
-			<span>um horario conosco.
+			<span>
+        <div className='imgRossInicio'/>
+         </span>
+         <span>Agencia Ross,&nbsp; agende&nbsp; um horario conosco.</span>
+			<span> </span>
       <div className='containerButton1'>   
-        <button onClick={handleClick}  className='raise'>AGENDAR HORÁRIO</button>
-				</div>
-      </span>   
+			<span>
+        <button onClick={serviceEmail}  className='raise'>AGENDAR HORÁRIO</button>
+				
+      </span>   </div>
 		</h2></div>
-         </div>
+         
        
        </div>  
        <HeadLine ref={ref} />
@@ -42,8 +46,8 @@ function handleClick (){
       {/*formulario*/}
       <div className='containerForm'>
     <Form/>
-    
     </div>
+
       <div className='container2'>
       <h2 className='text2Main' >SE A SUA EMPRESA</h2>
       <div className='container2Text'>
