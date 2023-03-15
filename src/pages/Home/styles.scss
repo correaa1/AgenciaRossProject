@@ -5,50 +5,29 @@
       border: none;
     }
  
-    @media screen and (max-width:600px){
-     form, div, aside, span {
-          width: 100%;
-          align-items: center;
-          justify-content: center;
-          display: flex;
-          height: auto;
-       }
-     }
 
-     @media screen and (max-width:600px){
-      div.container2Text, h1,h2,h3,h4 {
-           width: 600px;
-           align-items: center;
-           justify-content: center;
-           display: flex;
-           flex-direction: column;
-        }
-      }
-
-      @media screen and (max-width:600px){
-        div.container2,div.slider, div.card {
-             width: 600px;
-             
-          }
-        }
-   
-
-     
-      @media screen and (max-width:600px){
-        span, button.raise {
-             width:600px;
-           }
-         }
-
-         @media screen and (max-width:600px){
-          div.container2, button.raise {
-               width:600px;
-               padding: 20px;
-             }
-           }
     
-    
-     
+@media screen and (max-width:600px){
+  body, aside {width: 600px;text-align: center;}
+}
+@media screen and (max-width:768px){
+   body, aside {width: 768px;text-align: center;}
+ }
+
+ @media screen and (max-width:600px){
+  div.card {width: 293px;text-align: center;}
+}
+@media screen and (max-width:768px){
+ div.card {width: 293px;text-align: center;padding-right: 40px;}
+}  
+
+@media screen and (max-width:600px){
+  div.container3 {width: 100%; padding: 30px ;}
+}
+@media screen and (max-width:768px){
+   div.container3 {width: 100%;padding: 30px}
+ }
+
 
     .imagem{
 background-size: cover ; 
@@ -455,7 +434,7 @@ code {
     flex-direction: column;
     background-color: #1f2e3a;
     width: 100%;
-    padding: 250px;
+    
 }
 h2.text2Main{
   color: #FFFFFF;
@@ -570,16 +549,16 @@ h3.textTime{
 
 .imgEquipeR {
   background-image: url('/src/assets/imgEquipeR.png');
-  background-size: 100%;
+  background-size: cover;
   height:40vh;
-  width: 350px;
+  width: 100%;
   border-radius: 5px;
 }
 .imgEquipeG {
   background-image: url('/src/assets/imgEquipeG.png');
   background-size: 100%;
   height:40vh;
-  width: 350px;
+  width: 100%;
   border-radius: 5px;
   
 }
@@ -589,7 +568,7 @@ h3.textTime{
   background-size: 100%;
   border-radius: 10px;
   height:40vh;
-  width: 350px;
+  width: 100%;
   border-radius: 5px;
 }
 .imgEquipeE {
@@ -598,7 +577,7 @@ h3.textTime{
   background-size: 100%;
   border-radius: 10px;
   height:40vh;
-  width: 350px;
+  width: 100%;
   border-radius: 5px;
   
 }
@@ -607,7 +586,7 @@ h3.textTime{
   background-size: 100%;
   border-radius: 10px;
   height:40vh;
-  width: 350px;
+  width: 100%;
   border-radius: 5px;
 }
   
@@ -635,6 +614,8 @@ h3.textTime{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+    margin-right:250px ;
+    margin-left:225px ;
     border-radius: 5px;
     
     .slide-track {
@@ -967,7 +948,7 @@ text-align: center;
       --card-height: 65vh;
       --card-width: calc(var(--card-height) / 1.5);
     }
-    .card {
+    div.card {
       background: #191c29;
       width:100%;
       padding-top: 50px;
@@ -983,6 +964,7 @@ text-align: center;
       cursor: pointer;
       font-family: cursive;
       height: 50vh;
+      width: 400px;
     }
     
     .card:hover {

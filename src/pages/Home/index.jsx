@@ -8,6 +8,8 @@ import HeadLine from '../Router/router'
 import serviceEmail from '../src/serviceEmail.js'
 
 
+ 
+
 
 export default function Home() {
   const ref = useRef(null)
@@ -15,6 +17,8 @@ function handleClick (){
   ref.current?.scrollIntoView({behavior:'smooth'})
 }
   
+
+
   return(
 
   <div id='container'>
@@ -22,7 +26,7 @@ function handleClick (){
       
    {/*container abaixo faz a transição do texta inicial.*/}
     <div class="sp-container">
-	<div class="sp-content">       
+	<div  class="sp-content">       
         <h2 class="frame-5">
        
 			<span>
@@ -36,9 +40,9 @@ function handleClick (){
 				
       </span>   </div>
 		</h2></div>
-         
+      
        
-       </div>  
+    </div>  
        <HeadLine ref={ref} />
        </div> 
        
@@ -61,8 +65,8 @@ function handleClick (){
 
       <div className='container2Icon30k'>
       <div className='iconSubir'>  </div>
-      <h3 className='text2'>Busca receber mais leads qualificados</h3></div></div>
-    <button onClick={handleClick} class='raise'>Nós vamos te ajudar</button></div>
+      <h3 className='text2'>Busca receber mais leads qualificados</h3></div> </div>
+   <div className='container2Button'> <button onClick={handleClick} class='raise'>Nós vamos te ajudar</button></div></div>
      {/*container que contem a parte da equipe da empresa*/}
       <div className='container3'>
           <h2 className='text3'>O QUE A AGENCIA ROSS FAZ?</h2>
