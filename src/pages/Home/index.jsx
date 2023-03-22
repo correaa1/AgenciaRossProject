@@ -5,8 +5,6 @@ import star from'../../assets/star.png'
 import prancheta from'../../assets/prancheta.png'
 import complet from'../../assets/complet.png'
 import HeadLine from '../Router/router'
-import serviceEmail from '../src/serviceEmail.js'
-
 
  
 
@@ -36,7 +34,7 @@ function handleClick (){
 			<span> </span>
       <div className='containerButton1'>   
 			<span>
-        <button onClick={serviceEmail}  className='raise'>AGENDAR HORÁRIO</button>
+        <button  className='raise'>AGENDAR HORÁRIO</button>
 				
       </span>   </div>
 		</h2></div>
